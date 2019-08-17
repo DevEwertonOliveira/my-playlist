@@ -1,3 +1,7 @@
+body{
+    background-color: rgb(45, 45, 45);
+}
+
 .menu{
     position:relative;
 }
@@ -22,9 +26,26 @@ input{
 
 .titulo{
     text-align:center;
+    color:white;
+    font-size:32pt;
 }
 
 .subtitulo{
     text-align:center;
+    color:white;
+    font-size:16pt;
 }
 
+.btn1{
+    border:none;
+    border-radius:20px;
+    padding:14px;
+    background-color: rgb(0, 219, 95);
+    transition:1s;
+    cursor:pointer;
+    color:white;
+}
+
+.btn1:hover{
+    transform:scale(1.2);
+}
