@@ -1,0 +1,30 @@
+.menu{
+    position:relative;
+}
+
+span{
+    position:absolute;
+    bottom:-20px;
+    left:0px;
+    font-size:10px;
+    color:red;
+
+}
+
+form{
+    display:flex;
+}
+
+input{
+    border:none;
+    border-bottom:1px solid green;
+}
+
+.titulo{
+    text-align:center;
+}
+
+.subtitulo{
+    text-align:center;
+}
+
